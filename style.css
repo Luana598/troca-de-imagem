@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-image: url(./img/lily.jpg);
+}
+
+
+body {
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+    transition: 1s;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+    margin-top: 10dvh;
+    background-attachment: fixed;
+    
+}
+
+input {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container button {
+    padding-block: 12px;
+}
+
+.img {
+    background:var(--bg-image);
+}
